@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2f74c0;
+    font-family: "Neucha", cursive;
+}
+
+
+.title {
+    font-family: "Neucha", cursive;
+    font-weight: 500;
+    color: whitesmoke;
+    font-style: normal;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 800px) {
+    .heading {
+        margin: 15px 0;
+        font-size: 35px;
+    }
+}
